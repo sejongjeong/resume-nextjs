@@ -5,7 +5,7 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Foo Company',
+      title: 'Cochlear.ai',
       position: 'Node.js Developer',
       startedAt: '2018-02',
       descriptions: [
@@ -14,18 +14,6 @@ const experience: IExperience.Payload = {
         'Systems Engineering and DevOps',
       ],
       skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
-    },
-    {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Enginner',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      descriptions: [
-        'Online Commerce IT Startup',
-        'Development of reservation system and service worker',
-        'AWS infrastructure and RDBMS maintenance and development',
-      ],
-      skillKeywords: ['Node.js', 'MySQL', 'AWS'],
     },
   ],
 };
